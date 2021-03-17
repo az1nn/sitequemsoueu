@@ -9,9 +9,7 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    
-    
-    <div id="interface">
+    <main id="interface">
         <audio src="musicas/mamacita-d3ka.mp3" controls autoplay id="player"></audio>
         <h1>Portfólio Az1nn</h1>
         <h2>Quem Sou eu?</h2>
@@ -19,18 +17,24 @@
         <br>
         <p id="codigo"><code>Hello, World!</code></p>
         <br>
-        <p id="apresent">
-            Prazer! <br>
-            Meu nome é <strong>Alan Sá</strong>, tenho 23 anos e sou estudante de programação e desenvolvimento Web. <br>
-            Atualmente estou me aprofundando em HTML5 e CSS3 e esse site é fruto dos meus <del>surtos</del> estudos diários. <br>
-        </p>
+        <div id="txt">
+            <p id="apresent">
+                Prazer! <br>
+                Meu nome é <strong>Alan Sá</strong>, tenho 23 anos e sou estudante de programação e desenvolvimento Web. <br>
+                Atualmente estou me aprofundando em HTML5 e CSS3 e esse site é fruto dos meus <del>surtos</del> estudos diários. <br>
+            </p>
+        </div>
         
         <h2>Onde você me encontra:</h2>
         <ul>
-            <li> <img src="imagens/icone-instagram.png" alt="Instagram Az1nn"> <a href="https://www.instagram.com/az1nn/" rel="external" target="_blank">Instagram</a></li>
-            <li><img src="imagens/icone-linkedin.png" alt="Linkedin Alan Sá"> <a href="https://www.linkedin.com/in/alan-s%C3%A1-76b6b3161/" rel="external" target="_blank">Linkedin</a></li>
-            <li><img src="imagens/icone-github.png" alt="Github Az1nn"> <a href="https://github.com/az1nn" rel="external" target="_blank">Github</a></li>
-            <li><img src="imagens/icone-wpp.png" alt="Whatsapp Alan Sá"> <a href="https://whatsfacil.com/0e8984" rel="external" target="_blank">Whatsapp</a></li>
+            <div class="esquerda">
+                <li> <img src="imagens/icone-instagram.png" alt="Instagram Az1nn"> <a href="https://www.instagram.com/az1nn/" rel="external" target="_blank">Instagram</a></li>
+                <li><img src="imagens/icone-linkedin.png" alt="Linkedin Alan Sá"> <a href="https://www.linkedin.com/in/alan-s%C3%A1-76b6b3161/" rel="external" target="_blank">Linkedin</a></li>
+            </div>
+            <div class="direita">
+                <li><img src="imagens/icone-github.png" alt="Github Az1nn"> <a href="https://github.com/az1nn" rel="external" target="_blank">Github</a></li>
+                <li><img src="imagens/icone-wpp.png" alt="Whatsapp Alan Sá"> <a href="https://whatsfacil.com/0e8984" rel="external" target="_blank">Whatsapp</a></li>
+            </div>
         </ul>
         <h2>Meu Portifólio</h2>
         <p style="text-align:center;">-------- EM BREVE! --------</p>
@@ -43,6 +47,6 @@
             <iframe width="360" height="215" src="https://www.youtube.com/embed/zx02HetCV9U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <p id="creditos">Atualizado por Alan Sá - 03/2021</p>
-    </div>
+    </main>
 </body>
 </html>
